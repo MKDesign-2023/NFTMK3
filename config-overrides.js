@@ -6,7 +6,11 @@ module.exports = function override(config, env) {
     crypto: require.resolve('crypto-browserify'),
     stream: require.resolve('stream-browserify'),
     buffer: require.resolve('buffer'),
-    process: require.resolve('process/browser')
+    process: require.resolve('process/browser'),
+    http: require.resolve('stream-http'),
+    https: require.resolve('https-browserify'),
+    os: require.resolve('os-browserify/browser'),
+    url: require.resolve('url')
   };
   config.plugins = (config.plugins || []).concat([
     new webpack.ProvidePlugin({
