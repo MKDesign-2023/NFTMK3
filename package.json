@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@tanstack/react-query": "^5.51.9",
     "@testing-library/jest-dom": "^6.4.6",
     "@testing-library/react": "^16.0.0",
     "@testing-library/user-event": "^14.5.2",
     "@walletconnect/web3-provider": "^1.8.0",
+    "@web3modal/wagmi": "^5.0.7",
     "assert": "^2.0.0",
     "buffer": "^6.0.3",
     "crypto-browserify": "^3.12.0",
@@ -21,6 +23,8 @@
     "stream-browserify": "^3.0.0",
     "stream-http": "^3.2.0",
     "url": "^0.11.0",
+    "viem": "^2.17.5",
+    "wagmi": "^2.11.3",
     "web-vitals": "^4.2.2",
     "web3": "^4.11.0"
   },
